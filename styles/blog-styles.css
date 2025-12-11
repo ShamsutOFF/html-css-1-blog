@@ -2,6 +2,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #374151;
+  color: #ffffff;
+}
+
 h1,
 li {
   font-weight: 400;
@@ -59,7 +64,7 @@ h2 {
   opacity: 1;
   border-radius: 50px;
 }
-.maitText {
+.mainText {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
