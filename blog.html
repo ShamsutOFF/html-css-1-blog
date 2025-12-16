@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="nav-header">
         <h1>Мой блог</h1>
         <nav>
             <ul>
@@ -23,13 +23,13 @@
                 <li>Frontend</li>
                 <li>Backend</li>
             </ul>
-            <input
-                name="searchQuery"
-                class="searchInput"
-                type="search"
-                placeholder="Поиск"
-            >
         </nav>
+        <input
+            name="searchQuery"
+            class="searchInput"
+            type="search"
+            placeholder="Поиск"
+        >
     </header>
     <main>
         <section>
@@ -44,17 +44,23 @@
                     src="./images/author.png"
                     alt="Фотография автора"
                 >
-                <p class="authorName">Наталья Васильева</p>
-                <p class="authorRole">Разработчик</p>
+                <div>
+                    <p class="authorName">Наталья Васильева</p>
+                    <p class="authorRole">Разработчик</p>
+                </div>
+
             </div>
         </section>
-
         <section>
+
             <img
                 class="mainPhoto"
                 src="./images/image-mac.png"
                 alt="Картинка монитора"
             >
+        </section>
+
+        <section>
             <p class="mainText">
                 Теория цвета — это особенности эмоционального восприятия человеком тех или иных цветовых решений. Цвета
                 и
