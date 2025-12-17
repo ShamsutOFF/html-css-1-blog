@@ -1,138 +1,136 @@
 * {
-  font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0 auto;
-  margin: 0;
-  background: linear-gradient(180deg, #374151 0%, #111827 100%);
-  color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    color: #ffffff;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 1200px; /* ← ПЕРЕМЕСТИТЕ СЮДА */
-  padding: 0 20px; /* опционально: боковые отступы */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* ← ПЕРЕМЕСТИТЕ СЮДА */
+    padding: 0 20px; /* опционально: боковые отступы */
 }
 
 nav ul {
-  display: flex;
-  gap: 40px;
-  list-style: none;
-  padding: 0%;
-  margin: 0%;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .searchInput {
-  background-color: #1f293799;
-  width: 224px;
-  height: 40px;
-  border-radius: 100px;
-  color: #ffffff;
-  border: none;
-  padding: 5px 10px;
+    background-color: #1f293799;
+    width: 224px;
+    height: 40px;
+    border-radius: 100px;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
 }
 
 h1,
 li {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
 }
 
 .nav-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 80px;
-  justify-content: space-between;
-  width: 100%; /* Добавьте это */
-  max-width: 1200px; /* И это, чтобы соответствовать body */
-  margin: 0 auto; /* Центрирование */
-  padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    width: 100%; /* Добавьте это */
+    max-width: 1200px; /* И это, чтобы соответствовать body */
+    padding: 20px;
 }
 
 .headerTheme {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 100%;
-  text-align: center;
-  opacity: 60%;
-  margin-bottom: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    opacity: 60%;
+    margin-bottom: 14px;
 }
 
 .headerName {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 38px;
-  text-align: center;
-  margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .authorCard {
-  margin-bottom: 28px;
-  display: flex;
-  justify-content: center;
-  gap: 16px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .authorName {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  letter-spacing: 0%;
-  margin: 0%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    margin: 0;
 }
 
 .authorRole {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 28px;
-  letter-spacing: 0%;
-  opacity: 60%;
-  margin: 0%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0;
+    opacity: 60%;
+    margin: 0;
 }
 
 .mainPhoto {
-  width: 896px;
-  border-radius: 5px;
-  margin-bottom: 69px;
+    width: 896px;
+    border-radius: 5px;
+    margin-bottom: 69px;
 }
 
 .authorPhoto {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
 }
 
 .mainText {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  letter-spacing: 0%;
-  max-width: 800px;
-  text-align: justify;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0;
+    max-width: 800px;
+    text-align: justify;
 }
 
 footer {
-  width: 100%;
-  max-width: 1200px; /* ← И СЮДА */
-  padding: 0 20px; /* опционально */
+    width: 100%;
+    max-width: 1200px; /* ← И СЮДА */
+    padding: 0 20px; /* опционально */
 }
 
 footer p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
-  letter-spacing: 0%;
-  text-align: center;
-  opacity: 60%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
+    opacity: 60%;
 }

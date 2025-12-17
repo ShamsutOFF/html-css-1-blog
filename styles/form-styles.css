@@ -1,32 +1,32 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  background: linear-gradient(0deg, #f39494, #f39494),
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(0deg, #f39494, #f39494),
     linear-gradient(243.43deg, #ffa5a5 32.96%, rgba(255, 255, 255, 0) 82.03%),
     linear-gradient(243.18deg, #fdc5c5 25.45%, rgba(242, 152, 222, 0) 100%);
 }
 
 main {
-  border-radius: 10px;
-  background: #fffefe;
-  box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 10px;
+    background: #fffefe;
+    box-shadow: 0px 4px 4px 0px #00000040;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch; /* ← ключевое изменение! */
-  margin: 72px 95px 95px 95px;
-  flex: 1;
-  gap: 20px; /* отступ между всеми детьми */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch; /* ← ключевое изменение! */
+    margin: 72px 95px 95px 95px;
+    flex: 1;
+    gap: 20px; /* отступ между всеми детьми */
 }
 
 /* Все дети растянутся на 100% ширины автоматически */
@@ -34,85 +34,86 @@ form {
 
 /* Конкретно для контейнера с двумя инпутами */
 form > div:nth-child(3) {
-  display: flex;
-  gap: 1px;
+    display: flex;
+    gap: 1px;
 }
 
 /* Все инпуты */
 form input {
-  width: 100%;
-  box-sizing: border-box;
-  padding: 12px 16px;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
 }
 
 h1 {
-  color: #333333;
-  font-size: 36px;
-  font-weight: 700;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  margin-top: 0px;
+    color: #333333;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-top: 0;
 }
 
 h3 {
-  color: #666666;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
 }
 
 label {
-  color: #666666;
-  font-size: 14px;
+    color: #666666;
+    font-size: 14px;
 }
 
 a {
-  color: #089fe0;
+    color: #089fe0;
 }
 
 input {
-  color: #333333;
-  background-color: #f5f5f5;
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+    color: #333333;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
 }
 
 input::placeholder {
-  color: #999999;
-  background-color: #f5f5f5;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: italic;
-  font-family: "Open Sans", sans-serif;
+    color: #999999;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
 }
 
 button {
-  background-color: #089fe0;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  width: 100%;
-  box-sizing: border-box;
-  border: none;
-  padding: 12px 16px;
-  border-radius: 4px;
+    background-color: #089fe0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
 }
 
 /* Добавьте это в конец вашего CSS файла */
 form > div:last-child {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 8px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
 }
 
 /* Чтобы чекбокс был нормального размера */
 form > div:last-child input[type="checkbox"] {
-  width: auto; /* не растягивать на 100% */
-  flex-shrink: 0; /* не сжимать */
+    width: auto; /* не растягивать на 100% */
+    flex-shrink: 0; /* не сжимать */
+
 }
